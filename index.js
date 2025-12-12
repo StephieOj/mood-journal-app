@@ -82,6 +82,7 @@ const collectionName = "posts"
 
 /* === Main Code === */
 
+
 onAuthStateChanged(auth, (user) => {
     if (user) {
         showLoggedInView()
